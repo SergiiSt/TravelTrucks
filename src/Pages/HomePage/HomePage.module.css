@@ -1,0 +1,12 @@
+.main {
+  background-image: url('../../img/bgX1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  padding: 260px 805px 260px 64px;
+  /* width: 1440px; */
+}
+
+.title {
+  font-size: 48px;
+}

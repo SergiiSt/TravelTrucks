@@ -1,0 +1,22 @@
+.header {
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 28px 64px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-right: 457px;
+}
+
+.home {
+  margin-right: 32px;
+}
+
+.separator {
+  width: 1px;
+  height: 40px; /* или желаемая высота */
+  background-color: #ccc; /* цвет линии */
+  margin: 0 auto;
+}
