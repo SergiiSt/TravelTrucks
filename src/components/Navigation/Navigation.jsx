@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-// import Container from '../Container/Container';
+import Logo from '../../img/Logo.png';
 
 import css from '../Navigation/Navigation.module.css';
 
@@ -12,7 +12,7 @@ export default function Navigation() {
         <section className={css.logo}>
           {/* <NavLink to="/">TravelTruck</NavLink> */}
           <NavLink to="/">
-            <img src="src/img/Logo.png" alt="Trave Truck Logo" />
+            <img src={Logo} alt="Trave Truck Logo" />
           </NavLink>
         </section>
 
