@@ -1,6 +1,6 @@
 import css from '../Equipment/Equipment.module.css';
 import AC from '../../img/AC.svg';
-import Transmission from '../../img/Transmission.svg';
+// import Transmission from '../../img/Transmission.svg';
 import Kitchen from '../../img/Kitchen.svg';
 import Tv from '../../img/Tv.svg';
 import Shower from '../../img/Shower.svg';
@@ -21,9 +21,7 @@ export default function Equipment() {
 
         <label className={css.radioCard}>
           <input type="checkbox" name="feature" value="Automatic" />
-          <div className={css.icon}>
-            <img src={Transmission} />
-          </div>
+          <div className={css.icon}>{/* <img src={Transmission} /> */}</div>
           Automatic
         </label>
 
