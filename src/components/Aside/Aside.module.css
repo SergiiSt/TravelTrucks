@@ -1,0 +1,13 @@
+.aside {
+  width: 360px;
+  float: left;
+  margin-right: 50px;
+}
+
+.paragraph {
+  margin-bottom: 8px;
+}
+
+.paragraphFilters {
+  margin-bottom: 32px;
+}

@@ -1,0 +1,8 @@
+/* .title {
+  color: black;
+} */
+.main {
+  display: flex;
+  width: 1440px;
+  padding: 48px 64px 0 64px;
+}

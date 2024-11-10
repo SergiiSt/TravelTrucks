@@ -18,6 +18,7 @@
   font-weight: 600;
   margin-bottom: 16px;
   line-height: 67%;
+  color: #f7f7f7;
 }
 
 .paragraph {
@@ -27,6 +28,7 @@
   line-height: 133%;
   margin: 0;
   margin-bottom: 57px;
+  color: #f7f7f7;
 }
 
 .link {
@@ -37,7 +39,7 @@
   height: 56px;
   background-color: #e44848;
   font-size: 16px;
-  color: #fff;
+  color: #f7f7f7;
 }
 
 .link:hover {
