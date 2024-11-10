@@ -1,0 +1,33 @@
+.booking {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 44px;
+  width: 631px;
+  height: 623px;
+}
+
+.input {
+  border: transparent;
+  border-radius: 12px;
+  padding: 18px 337px 18px 18px;
+  width: 527px;
+  height: 60px;
+  background-color: #f7f7f7;
+  color: black;
+}
+
+.input:focus,
+.inputCom:focus {
+  border: transparent;
+  outline: none;
+}
+
+.inputCom {
+  border: transparent;
+  border-radius: 10px;
+  padding: 18px 308px 76px 18px;
+  width: 527px;
+  height: 118px;
+  background-color: #f7f7f7;
+  color: black;
+}

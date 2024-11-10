@@ -49,7 +49,11 @@ export default function CamperCard({ camper }) {
         ))}
       </ul>
 
-      <NavLink to={`/catalog/${camper.id}`} className={css.link}>
+      <NavLink
+        to={`/catalog/${camper.id}`}
+        prop={camper.id}
+        className={css.link}
+      >
         Show more
       </NavLink>
     </div>
@@ -75,6 +79,6 @@ CamperCard.propTypes = {
     water: PropTypes.bool,
     radio: PropTypes.bool,
     gallery: PropTypes.array,
-    id: PropTypes.number,
+    id: PropTypes.string,
   }).isRequired,
 };
